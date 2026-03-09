@@ -1,1 +1,1 @@
-# Calculator
+This is a basic calculator web application built using HTML, CSS and JavaScript.It performs standard arithmetic operations through an interactive user interface. The goal of this project was to practice DOM manipulation, event handling and UI styling.
