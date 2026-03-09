@@ -14,8 +14,8 @@
                     <input type="text" name="display">
                 </div>
                 <div>
-                    <input type="button" value="AC" onClick="display.value ='' " class="operator">
-                    <input type="button" value="DEL" onClick="display.value = display.value.toString().slice(0, -1) " class="operator">
+                    <input type="button" value="AC" onClick="display.value ='' " class="operator" style="background-color: red;">
+                    <input type="button" value="❌" onClick="display.value = display.value.toString().slice(0, -1) " class="operator">
                     <input type="button" value="." onClick="display.value +='.' " class="operator">
                     <input type="button" value="/" onClick="display.value +='/' " class="operator">
                 </div>
@@ -46,4 +46,5 @@
         </div>
     </div>
 </body>
+
 </html>
