@@ -17,6 +17,10 @@
     padding: 20px;
     border-radius: 10px;
 }
+.calculator form div{
+    display:flex;
+    justify-content: space-between;
+}
 .calculator form input{
     border: 0;
     outline: 0;
@@ -28,7 +32,8 @@
     font-size: 20px;
     color: #fff;
     cursor: pointer;
-    margin: 10px;
+    flex:1;
+    margin: 5px;
 }
 form .display{
     display: flex;
@@ -51,4 +56,5 @@ form input.operator{
     font-size: 30px;
 
 }
+
 
